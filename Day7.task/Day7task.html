@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="loginform.html">
+     <fieldset>
+        <legend>Sign Up form</legend>
+
+        <label for="name">User name:</label>
+        <input type="text" id="name" placeholder="Enter your user name " pattern="[A-Za-z]+" title="" required>
+        <br>
+        <br>
+       <label for="password"> Password: </label>
+        <input type="password" id="password" placeholder="enter your password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" required>
+        <br>
+        <br>
+        <label for="password"> Password: </label>
+        <input type="password" id="password" placeholder="enter your password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8}" required>
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="mail" for="email" placeholder="enter your mail" required>
+        <br>
+        <br>
+        <label for="phone">Phone number</label>
+        <input type="number" placeholder="enter your number" pattern="[0-9]{10}" required>
+        <br>
+        <br>
+        <input type="submit" value="Submit" required>
+     </fieldset>
+    </form>
+</body>
+</html>
